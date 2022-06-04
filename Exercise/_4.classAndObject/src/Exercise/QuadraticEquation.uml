@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-86.765250975554" y="12.478865447237837">Exercise.Rectangle</node>
+    <node x="170.67557484095158" y="-52.205861154707186">Exercise.QuadraticEquation</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Compact" zoom="1.2000000000000004" showDependencies="false" x="92.90441894531261" y="96.24999999999989" />
+  <SelectedNodes>
+    <node>Exercise.Rectangle</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
