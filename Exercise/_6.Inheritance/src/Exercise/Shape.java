@@ -36,6 +36,7 @@ public class Shape {
     public void setFilled(boolean filled) {
         this.filled = filled;
     }
+
     @Override
     public String toString() {
         return "A Exercise.Shape with color of "
