@@ -29,7 +29,7 @@ public class StaffManager {
             case 2: {updateStaff(scanner);break;}
             case 3: {removeStaffById(scanner);break;}
             case 4: {showStaff();break;}
-            case 5: {status=false;break;}
+            case 5: {status=false;exit();break;}
         }
     }
 
@@ -37,14 +37,12 @@ public class StaffManager {
     private void addStaff(Scanner scanner){
         System.out.print("Xin hãy nhập id :");
         int id=scanner.nextInt();
-        System.out.println("xin hãy nhập tên:");
-        scanner.nextLine();
-        String name=scanner.nextLine();
+        System.out.print("xin hãy nhập tên:");
+        String name=scanner.next();
         System.out.print("Xin hãy nhập tuổi :");
         int age=scanner.nextInt();
-        System.out.println("Xin hãy nhập giới tính :");
-        scanner.nextLine();
-        String gender=scanner.nextLine();
+        System.out.print("Xin hãy nhập giới tính :");
+        String gender=scanner.next();
         System.out.print("Xin hãy nhập lương:");
         double salary=scanner.nextDouble();
         staffs[index]=new Staff(id,name,age,gender,salary);
@@ -136,17 +134,23 @@ public class StaffManager {
         }
     }
 
-
+    private  int checkId(int id){
+        for (int i = 0; i < this.staffs.length; i++) {
+            if (this.staffs[i].getIdStaff() == id){
+                return i;
+            }
+        }
+        return -1;
+    }
 
 
     private void removeStaffById(Scanner scanner){
-
+        Staff[] newStaffs=new Staff[staffs.length-1];
         int id=getIdForUpdate(scanner);
-        for (int i=0;i<staffs.length;i++) {
-            if(staffs[i].getIdStaff()==id){
-
-            }
+        for (int i=this.checkId(id)+1;i<staffs.length;i++) {
+            newStaffs[i-1]=this.staffs[i];
         }
+        staffs=newStaffs;
     }
     private   void   showStaff(){
         for (Staff staff:staffs) {
@@ -154,6 +158,12 @@ public class StaffManager {
             System.out.println(staff.toString());
             }
         }
+    }
+
+
+    private  void exit(){
+        System.out.println("---------------------------------");
+        System.out.println("Đã thoát chương trình");
     }
 
 
