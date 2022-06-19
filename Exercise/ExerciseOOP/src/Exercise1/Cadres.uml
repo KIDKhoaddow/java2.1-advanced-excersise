@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="473.5" y="-342.0">Exercise.Officer</node>
+    <node x="153.5" y="-331.0">Exercise.Engineer</node>
+    <node x="-134.0" y="-342.0">Exercise.Worker</node>
+    <node x="177.0" y="-102.0">Exercise.Cadres</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Exercise.Worker" target="Exercise.Cadres" relationship="GENERALIZATION">
+      <point x="0.0" y="94.0" />
+      <point x="-12.5" y="-8.0" />
+      <point x="-110.5" y="0.0" />
+    </edge>
+    <edge source="Exercise.Engineer" target="Exercise.Cadres" relationship="GENERALIZATION">
+      <point x="0.0" y="83.0" />
+      <point x="0.0" y="-94.0" />
+    </edge>
+    <edge source="Exercise.Officer" target="Exercise.Cadres" relationship="GENERALIZATION">
+      <point x="0.0" y="94.0" />
+      <point x="602.5" y="-8.0" />
+      <point x="110.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.9313225746154785" showDependencies="false" x="-20.641503146666082" y="-184.3124015786665" />
+  <SelectedNodes>
+    <node>Exercise.Worker</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

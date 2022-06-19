@@ -1,11 +1,11 @@
 package Practice;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StaffManager {
-    private Staff[] staffs=new  Staff[10];
+    private ArrayList<Staff> staffs=new ArrayList<Staff>();
     Scanner scanner= new Scanner(System.in);
-    public   int  index = 0 ;
     public boolean status=true;
     public void workMenu(){
 
@@ -26,10 +26,10 @@ public class StaffManager {
         int choice =scanner.nextInt();
         switch (choice){
             case 1: {addStaff(scanner);break;}
-            case 2: {updateStaff(scanner);break;}
-            case 3: {removeStaffById(scanner);break;}
-            case 4: {showStaff();break;}
-            case 5: {status=false;exit();break;}
+            case 2: {updateStaff(scanner) ; break;}
+            case 3: {removeStaffById(scanner); break;}
+            case 4: {showStaff(); break;}
+            case 5: {status=false;exit(); break;}
         }
     }
 
@@ -45,8 +45,9 @@ public class StaffManager {
         String gender=scanner.next();
         System.out.print("Xin hãy nhập lương:");
         double salary=scanner.nextDouble();
-        staffs[index]=new Staff(id,name,age,gender,salary);
-        index++;
+        Staff staff=new Staff(id,name,age,gender,salary);
+        staffs.add(staff);
+
     }
     private void updateStaff(Scanner scanner){
         System.out.println("---------------------");
@@ -55,14 +56,16 @@ public class StaffManager {
         System.out.println("3.Update Gender");
         System.out.println("4.Update Salary");
         System.out.println("5.Update All");
+        System.out.println("6.Previous");
         System.out.print("Lựa chọn của bạn là :");
         int choice =scanner.nextInt();
         switch (choice){
-            case 1:{updateName(scanner);updateStaff(scanner);}
+            case 1:{updateName(scanner);updateStaff(scanner);break;}
             case 2:{updateAge(scanner);updateStaff(scanner);break;}
             case 3:{updateGender(scanner);updateStaff(scanner);break;}
             case 4:{updateSalary(scanner);updateStaff(scanner);break;}
             case 5:{updateAll(scanner);updateStaff(scanner);break;}
+            case 6:{workMenu();break; }
         }
     }
 
@@ -135,9 +138,9 @@ public class StaffManager {
     }
 
     private  int checkId(int id){
-        for (int i = 0; i < this.staffs.length; i++) {
-            if (this.staffs[i].getIdStaff() == id){
-                return i;
+        for (Staff staff:staffs) {
+            if(staff.getIdStaff()==id){
+                return staffs.indexOf(staff);
             }
         }
         return -1;
@@ -145,13 +148,12 @@ public class StaffManager {
 
 
     private void removeStaffById(Scanner scanner){
-        Staff[] newStaffs=new Staff[staffs.length-1];
         int id=getIdForUpdate(scanner);
-        for (int i=this.checkId(id)+1;i<staffs.length;i++) {
-            newStaffs[i-1]=this.staffs[i];
-        }
-        staffs=newStaffs;
-    }
+        staffs.remove(checkId(id));
+
+     }
+
+
     private   void   showStaff(){
         for (Staff staff:staffs) {
             if(staff!=null){

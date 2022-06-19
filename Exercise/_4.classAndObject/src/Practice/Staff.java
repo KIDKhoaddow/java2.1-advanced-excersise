@@ -59,7 +59,6 @@ public class Staff {
     public void setSalaryStaff(double salaryStaff) {
         this.salaryStaff = salaryStaff;
     }
-
     @Override
     public String toString() {
         return "Staff{" +
