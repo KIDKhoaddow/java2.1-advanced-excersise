@@ -1,5 +1,6 @@
 package model.Room;
 
+<<<<<<< HEAD
 import java.io.Serializable;
 
 public class Room implements Serializable {
@@ -45,12 +46,58 @@ public class Room implements Serializable {
 
     public String getRoomName() {
         return roomName;
+=======
+import model.Class.EnglishClass;
+import model.Class.Shift;
+import service.Room.RoomServiceIMPL;
+import service.user.UserServiceIMPL;
+
+public class Room {
+    private int id;
+    private String roomId;
+    private String roomName;
+    private int roomNumberSeat;
+    private RoomStatus roomStatus;
+    private EnglishClass firstShiftClass;
+    private EnglishClass secondShiftClass;
+
+
+    public Room() {
+    }
+
+    public Room(String roomName, int roomNumberSeat) {
+        try {
+            id = Integer.parseInt(RoomServiceIMPL.roomList.get(UserServiceIMPL.studentList.size() - 1).getRoomId().substring(3));
+        } catch (Exception e) {
+            id = 0;
+        }
+        this.roomId = "ROOM" + id;
+        this.roomName = roomName;
+        this.roomNumberSeat = roomNumberSeat;
+    }
+
+    public String getRoomId() {
+        return roomId;
+    }
+
+    public void setRoomId(String roomId) {
+        this.roomId = roomId;
+    }
+
+    public String getRoomName() {
+        try{
+            return roomName;
+        }catch (Exception e){
+            return "";
+        }
+>>>>>>> 6ba14ee (Exercise)
     }
 
     public void setRoomName(String roomName) {
         this.roomName = roomName;
     }
 
+<<<<<<< HEAD
     public int getRoomID() {
         return roomID;
     }
@@ -92,4 +139,71 @@ public class Room implements Serializable {
                 ", isSecondShiftEmpty=" + isSecondShiftEmpty +
                 '}';
     }
+=======
+    public int getRoomNumberSeat() {
+        return roomNumberSeat;
+    }
+
+    public void setRoomNumberSeat(int roomNumberSeat) {
+        this.roomNumberSeat = roomNumberSeat;
+    }
+
+    public RoomStatus getRoomStatus() {
+        return roomStatus;
+    }
+
+    public void setRoomStatus(RoomStatus roomStatus) {
+        this.roomStatus = roomStatus;
+    }
+
+    public EnglishClass getFirstShiftClass() {
+        return firstShiftClass;
+    }
+
+    public boolean setFirstShiftClass(EnglishClass firstShiftClass) {
+        EnglishClass temp=this.firstShiftClass;
+        this.firstShiftClass = firstShiftClass;
+        if (checkSeat(firstShiftClass.getNumberStudent())&&checkShift()) {
+            temp=null;
+            return true;
+        }else {
+            this.firstShiftClass=temp;
+            temp=null;
+            return false;
+        }
+    }
+
+    public EnglishClass getSecondShiftClass() {
+        return secondShiftClass;
+    }
+
+    public boolean setSecondShiftClass(EnglishClass secondShiftClass) {
+        EnglishClass temp=this.secondShiftClass;
+        this.secondShiftClass = secondShiftClass;
+        if (checkSeat(secondShiftClass.getNumberStudent())&&checkShift()) {
+            temp=null;
+            return true;
+        }else {
+            this.secondShiftClass=temp;
+            temp=null;
+            return false;
+        }
+    }
+
+    private boolean checkSeat(int numberStudent) {
+        return numberStudent <= roomNumberSeat;
+    }
+
+    private boolean checkShift() {
+        return firstShiftClass.getShift() != secondShiftClass.getShift();
+    }
+    public  String getFirstShiftClassName(){
+        return firstShiftClass.getClassName();
+    }
+    public  String getSecondShiftClassName(){
+        return secondShiftClass.getClassName();
+    }
+
+
+>>>>>>> 6ba14ee (Exercise)
 }

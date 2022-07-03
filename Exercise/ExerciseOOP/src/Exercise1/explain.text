@@ -1,0 +1,15 @@
+1 ) tạo một lớp cadres có các thuộc tính chung của engineer ,officer, worker:
+    name, age, gender, address
+  -> cadres làm lớp cha và engineer,office,worker làm lớp con kế thừa lớp cha là cadres
+vì lớp cadres là lớp cha để kế thừa , nên không cần toString
+2 )lớp Officer : kế thừa từ lớp cha cadres thừa hưởng đượcc các thuộc tính của lớp cha là :
+name, age,gender,address
+- có thêm một thuộc tính là task thuộc kiểu dữ liệu là String
+=> phương thức toString
+
+3)lớp Engineer : kế thừa từ lớp cha cadres thừa hưởng được các thuộc tính của lớp cha là :
+name, age,gender,address
+- có thêm một thuộc tính là fieldTraining có kiểu dữ liệu là String
+=> phương thức toString
+4) lớp Worker: Kế thừa lớp cha Cadres thừa hưởng được các thuộc tính của lớp cha là :name , age, gender,address
+- có thêm một thuộc tính là level có kiểu dữ liệu là =1 

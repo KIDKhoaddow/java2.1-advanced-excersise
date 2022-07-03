@@ -48,6 +48,7 @@ public class Cadres {
         this.address = address;
     }
 
+<<<<<<< HEAD
     @Override
     public String toString() {
         return "Cadres{" +
@@ -57,4 +58,6 @@ public class Cadres {
                 "Address='" + address +'}';
 
     }
+=======
+>>>>>>> 6ba14ee (Exercise)
 }

@@ -1,6 +1,7 @@
 package Exercise1;
 
 import java.util.ArrayList;
+<<<<<<< HEAD
 
 public class CadresManager {
     public ArrayList<Cadres> cadres=new ArrayList<>();
@@ -44,4 +45,33 @@ public class CadresManager {
         }
     }
 
+=======
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class CadresManager {
+    public ArrayList<Cadres> cadres;
+
+    public  CadresManager(){
+        this.cadres=new ArrayList<>();
+    }
+    public List<Cadres> searchCadresByName(String name){
+        return  this.cadres.stream().filter(o->o.getName().contains(name)).collect(Collectors.toList());
+    }
+    public  void showListInfoOfCadres(){
+        this.cadres.forEach(o->System.out.println((o.toString())));
+    }
+
+    public void addCadres(String khoa, int i, String male, String ádufga) {
+    }
+
+    public void addEngineer(String thi, int i, String male, String sduiasg, String math) {
+    }
+
+    public boolean getCadresByName(String thi) {
+    }
+
+    public void displayCadres() {
+    }
+>>>>>>> 6ba14ee (Exercise)
 }

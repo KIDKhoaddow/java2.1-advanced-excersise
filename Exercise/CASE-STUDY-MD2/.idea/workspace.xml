@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f681ca3c-9d93-4e30-aeb2-86d1c9381fe5" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
@@ -77,6 +78,220 @@
       <change beforePath="$PROJECT_DIR$/../_4.classAndObject/src/Practice/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_4.classAndObject/src/Practice/Staff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_4.classAndObject/src/Practice/StaffManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_4.classAndObject/src/Practice/StaffManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_9.automationTesting-TDD/src/Exercise/TriagleClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_9.automationTesting-TDD/src/Exercise/TriagleClassifier.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/config/ConfigReadAndWriteFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/controller/EnglishClassController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/data/course.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/data/englishClass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/data/student.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/data/teacher.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/data/user.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Class/EnglishClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Class/EnglishClassStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Class/Shift.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Course/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Course/CourseStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Course/CourseType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Receipt/Receipt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Room/Room.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Room/RoomStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/User/Gender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/User/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/User/Staff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/User/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/User/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/User/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/Class/EnglishClassServiceIMPL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/Class/IEnglishClassService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/Course/CourseServiceIMPL$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/Course/CourseServiceIMPL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/Course/ICourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/IGenericService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/Room/IRoomService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/Room/RoomServiceIMPL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/user/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/user/UserServiceIMPL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/AdminView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/Course/AddCourseView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/Course/CourseView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/Course/DeleteCouresView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/Course/DisplayCourseView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/Course/EditCourseView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/EnglishClass/AddEnglishClassView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/EnglishClass/DeleteEnglishClassView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/EnglishClass/DisplayEnglishClassView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/EnglishClass/EditEnglishClassView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/EnglishClass/EnglishClassView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/LoginAdminView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/RecieptView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/RoomView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/User/Edit/EditStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/User/Edit/EditTeacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/User/Edit/EditUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/User/Edit/EditView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/User/RegisterView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/User/RemoveView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/User/UserListView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/Common/CommonView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/Common/LoginView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/StudentView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/TeacherView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/All.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/ConfigReadAndWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/EnglishClassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/course.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/englishClass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/student.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/teacher.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/user.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Class/EnglishClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Class/EnglishClassStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Class/Shift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Course/CourseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Course/CourseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Receipt/Receipt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/User/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/User/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/Class/EnglishClassServiceIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/Class/IEnglishClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/Course/CourseServiceIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/Course/ICourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/Room/IRoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/Room/RoomServiceIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/user/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/user/UserServiceIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/AdminView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/Course/AddCourseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/Course/CourseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/Course/DeleteCouresView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/Course/DisplayCourseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/Course/EditCourseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/EnglishClass/AddEnglishClassView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/EnglishClass/DeleteEnglishClassView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/EnglishClass/DisplayEnglishClassView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/EnglishClass/EditEnglishClassView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/EnglishClass/EnglishClassView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/LoginAdminView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/RecieptView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/RoomView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/User/Edit/EditStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/User/Edit/EditTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/User/Edit/EditUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/User/Edit/EditView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/User/RegisterView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/User/RemoveView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AdminView/User/UserListView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Common/CommonView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Common/LoginView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/StudentView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/TeacherView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseOOP/src/Exercise1/explain.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/out/production/_12.JavaCollectionFrameWork/Exercise1/AgeComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/out/production/_12.JavaCollectionFrameWork/Exercise1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/out/production/_12.JavaCollectionFrameWork/Exercise1/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/out/production/_12.JavaCollectionFrameWork/Practice/IProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/out/production/_12.JavaCollectionFrameWork/Practice/IdComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/out/production/_12.JavaCollectionFrameWork/Practice/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/out/production/_12.JavaCollectionFrameWork/Practice/ProductManagerIMPL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/out/production/_12.JavaCollectionFrameWork/Practice_Optional/AbstractTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/out/production/_12.JavaCollectionFrameWork/Practice_Optional/BST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/out/production/_12.JavaCollectionFrameWork/Practice_Optional/ITree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/out/production/_12.JavaCollectionFrameWork/Practice_Optional/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/out/production/_12.JavaCollectionFrameWork/Practice_Optional/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/src/Exercise1/AgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/src/Exercise1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/src/Practice/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/src/Practice/IdComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/src/Practice/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/src/Practice/ProductManagerIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/src/Practice_Optional/AbstractTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/src/Practice_Optional/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/src/Practice_Optional/ITree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/src/Practice_Optional/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/src/Practice_Optional/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_13.SearchAlogrimth/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_13.SearchAlogrimth/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_13.SearchAlogrimth/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_13.SearchAlogrimth/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_13.SearchAlogrimth/_13.SearchAlogrimth.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_13.SearchAlogrimth/out/production/_13.SearchAlogrimth/Exercise1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_13.SearchAlogrimth/src/Exercise1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_14.SearchAlgorithm/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_14.SearchAlgorithm/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_14.SearchAlgorithm/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_14.SearchAlgorithm/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_14.SearchAlgorithm/_14.SearchAlgorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_14.SearchAlgorithm/src/Exercise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_15.ExceptionDebug/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_15.ExceptionDebug/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_15.ExceptionDebug/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_15.ExceptionDebug/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_15.ExceptionDebug/_15.ExceptionDebug.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_15.ExceptionDebug/src/Exercise/ArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_15.ExceptionDebug/src/Exercise/CalculationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_15.ExceptionDebug/src/Exercise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_15.ExceptionDebug/src/Exercise/TriangleEdgesCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_15.ExceptionDebug/src/Exercise/triangleEdgesException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/_16.IO_TextFile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/copy.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/coutries.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/out/production/_16.IO_TextFile/Exercise/Country.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/out/production/_16.IO_TextFile/Exercise/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/out/production/_16.IO_TextFile/Exercise/ReadAndWriteFileEx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/out/production/_16.IO_TextFile/Exercise/ReadAndWriteFileExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/out/production/_16.IO_TextFile/Test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/src/Exercise/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/src/Exercise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/src/Exercise/ReadAndWriteFileEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/src/Exercise/ReadAndWriteFileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/src/Test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_16.IO_TextFile/test.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ReceiptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/RoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Course/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Course/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Course/CourseShift.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Receipt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Room/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Room/RoomShift.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Room/RoomStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Room/RoomStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/User/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/User/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/User/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/IGenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/IGenericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/courseService/CourseServiceIMPL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/courseService/ICourseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/managerService/IManagerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/managerService/ManagerServiceIMPL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/receiptService/IReceiptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/receiptService/ReceiptServiceIMPL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/roomService/IRoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/roomService/RoomServiceIMPL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/studentService/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/studentService/StudentServiceIMPL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/teacherService/ITeacherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/teacherService/TeacherServiceIMPL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/userService/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/userService/UserServiceIMPL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciseOOP/src/Exercise1/Cadres.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciseOOP/src/Exercise1/Cadres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciseOOP/src/Exercise1/CadresManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciseOOP/src/Exercise1/CadresManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/out/production/_12.JavaCollectionFrameWork/Exercise/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/src/Exercise1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_12.JavaCollectionFrameWork/src/Exercise1/Main.java" afterDir="false" />
+>>>>>>> 6ba14ee (Exercise)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +302,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+<<<<<<< HEAD
+=======
+        <option value="Enum" />
+>>>>>>> 6ba14ee (Exercise)
         <option value="Class" />
       </list>
     </option>
@@ -97,6 +316,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+>>>>>>> 6ba14ee (Exercise)
   <component name="ProjectId" id="2Af4HBQ6iysfc6RKI27cXrVvZkH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -109,9 +334,43 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+<<<<<<< HEAD
     "last_opened_file_path": "C:/Users/Khoaddow/Documents/Project/Exercise/Example"
   }
 }]]></component>
+=======
+    "last_opened_file_path": "C:/Users/Khoaddow/Documents",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Khoaddow\Documents\Project\Exercise\CASE-STUDY-MD2\src\data\user" />
+      <recent name="C:\Users\Khoaddow\Documents\Project\Exercise\CASE-STUDY-MD2\src\data\id" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="view.Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.Main" />
+      <module name="CASE-STUDY-MD2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.AdminView.User.Edit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+>>>>>>> 6ba14ee (Exercise)
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -122,7 +381,16 @@
       <updated>1655387217825</updated>
       <workItem from="1655387219286" duration="4735000" />
       <workItem from="1655428082197" duration="28126000" />
+<<<<<<< HEAD
       <workItem from="1655503447368" duration="20418000" />
+=======
+      <workItem from="1655503447368" duration="39900000" />
+      <workItem from="1655774857848" duration="372000" />
+      <workItem from="1655786136003" duration="150825000" />
+      <workItem from="1656312496770" duration="14150000" />
+      <workItem from="1656363850097" duration="2913000" />
+      <workItem from="1656366802710" duration="96127000" />
+>>>>>>> 6ba14ee (Exercise)
     </task>
     <servers />
   </component>
@@ -140,4 +408,11 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+>>>>>>> 6ba14ee (Exercise)
 </project>

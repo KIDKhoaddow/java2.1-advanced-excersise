@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="428.99821836830006" y="423.4542827252832">view.AdminView</node>
+    <node x="463.20205575529997" y="-781.8851454910936">model.Course.CourseStatus</node>
+    <node x="409.49821836830006" y="307.9542827252832">config.ConfigReadAndWriteFile</node>
+    <node x="1176.0955231922192" y="-340.9899654684385">service.user.UserServiceIMPL</node>
+    <node x="711.8422759769767" y="43.891975797623104">model.User.Role</node>
+    <node x="-30.860523862079944" y="187.33839767472108">model.Class.EnglishClassStatus</node>
+    <node x="541.2362206601625" y="554.4542827252832">view.TeacherView</node>
+    <node x="-225.62895358629243" y="378.9882241775513">service.Course.ICourseService</node>
+    <node x="-131.06922096055072" y="962.0429067084015">service.IGenericService</node>
+    <node x="574.9592221756689" y="837.0654082167403">service.Class.IEnglishClassService</node>
+    <node x="777.3704329393721" y="-978.5503534792222">model.Course.CourseType</node>
+    <node x="-699.5405771123816" y="542.5343563818769">service.user.IUserService</node>
+    <node x="746.0267186178057" y="-743.8851454910936">model.Course.Course</node>
+    <node x="-313.07474528275185" y="-794.0299425427164">model.Room.RoomStatus</node>
+    <node x="239.5455012044224" y="357.8470092903502">model.Receipt.Receipt</node>
+    <node x="-721.0159578127374" y="-68.98589183093517">service.Room.RoomServiceIMPL</node>
+    <node x="742.0456654438415" y="246.42809116747628">model.User.Teacher</node>
+    <node x="-339.3001649512251" y="-13.251715578256466">model.User.Student</node>
+    <node x="-344.6358485048837" y="-580.7153105874493">model.Room.Room</node>
+    <node x="-183.20783013452163" y="1303.4084758432007">service.Room.IRoomService</node>
+    <node x="33.79147571878593" y="-715.6358342742766">model.Class.EnglishClass</node>
+    <node x="249.33539278973745" y="30.17487851798947">model.User.Staff</node>
+    <node x="168.5455012044224" y="1295.954282725283">view.Common.CommonView</node>
+    <node x="292.99547171877714" y="-146.35686301793044">view.Common.LoginView</node>
+    <node x="718.8856254105646" y="-172.56241460245644">model.User.Gender</node>
+    <node x="576.9982183683001" y="210.83839767472108">view.StudentView</node>
+    <node x="444.99547171877714" y="-368.85686301793044">model.User.User</node>
+    <node x="-110.18288873976704" y="-997.8130031370417">model.Class.Shift</node>
+    <node x="152.702792841732" y="515.7283736094612">service.Class.EnglishClassServiceIMPL</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.Class.EnglishClass" target="model.Class.EnglishClassStatus" relationship="TO_ONE">
+      <point x="14.999524281214065" y="282.0" />
+      <point x="60.65152386207994" y="-38.0" />
+    </edge>
+    <edge source="model.User.Staff" target="model.User.User" relationship="GENERALIZATION">
+      <point x="-3.92789737475141E-4" y="14.500121482010528" />
+      <point x="289.835" y="154.0" />
+      <point x="536.495" y="154.0" />
+      <point x="-4.717187771348108E-4" y="236.99986301793044" />
+    </edge>
+    <edge source="model.User.User" target="model.User.Gender" relationship="TO_ONE">
+      <point x="91.5" y="-2.705551584526006" />
+      <point x="-85.5" y="0.0" />
+    </edge>
+    <edge source="service.Room.RoomServiceIMPL" target="model.Room.Room" relationship="TO_MANY">
+      <point x="-4.2187262579318485E-5" y="-247.00010816906482" />
+      <point x="-577.516" y="-108.0" />
+      <point x="-208.136" y="-108.0" />
+      <point x="-1.5149511628465007E-4" y="216.00031058744926" />
+    </edge>
+    <edge source="model.User.Student" target="model.User.User" relationship="GENERALIZATION">
+      <point x="124.0001649512251" y="-28.105284421743534" />
+      <point x="201.639" y="97.643" />
+      <point x="201.639" y="154.0" />
+      <point x="536.495" y="154.0" />
+      <point x="-4.717187771348108E-4" y="236.99986301793044" />
+    </edge>
+    <edge source="service.Class.EnglishClassServiceIMPL" target="model.Class.EnglishClass" relationship="TO_MANY">
+      <point x="-153.702792841732" y="-346.00037360946123" />
+      <point x="176.0" y="287.0" />
+      <point x="216.639" y="287.0" />
+      <point x="86.84752428121408" y="281.9998342742766" />
+    </edge>
+    <edge source="model.User.Student" target="model.Class.EnglishClass" relationship="TO_ONE">
+      <point x="1.6495122508786153E-4" y="138.99971557825646" />
+      <point x="-215.3" y="287.0" />
+      <point x="216.639" y="287.0" />
+      <point x="86.84752428121408" y="281.9998342742766" />
+    </edge>
+    <edge source="model.User.Teacher" target="model.User.User" relationship="GENERALIZATION">
+      <point x="3.3455615857747034E-4" y="-249.00009116747628" />
+      <point x="885.546" y="154.0" />
+      <point x="536.495" y="154.0" />
+      <point x="-4.717187771348108E-4" y="236.99986301793044" />
+    </edge>
+    <edge source="model.Class.EnglishClass" target="model.Course.Course" relationship="TO_ONE">
+      <point x="96.0" y="-171.24931121681698" />
+      <point x="-76.0" y="0.0" />
+    </edge>
+    <edge source="service.user.IUserService" target="service.IGenericService" relationship="INTERFACE_GENERALIZATION">
+      <point x="133.9995771123816" y="-3.563818768270721E-4" />
+      <point x="-328.0" y="1064.534" />
+      <point x="-328.0" y="1055.043" />
+      <point x="-91.49977903944927" y="9.329159843218804E-5" />
+    </edge>
+    <edge source="service.Class.IEnglishClassService" target="service.IGenericService" relationship="INTERFACE_GENERALIZATION">
+      <point x="-177.0002221756689" y="163.1625917832598" />
+      <point x="-328.0" y="1225.228" />
+      <point x="-328.0" y="1055.043" />
+      <point x="-91.49977903944927" y="9.329159843218804E-5" />
+    </edge>
+    <edge source="service.user.UserServiceIMPL" target="model.User.User" relationship="TO_MANY">
+      <point x="-171.0" y="-503.0724491340179" />
+      <point x="91.5" y="-58.205551584526006" />
+    </edge>
+    <edge source="view.Common.LoginView" target="model.User.User" relationship="TO_MANY">
+      <point x="59.5" y="0.0" />
+      <point x="-91.5" y="0.0" />
+    </edge>
+    <edge source="model.User.Teacher" target="model.Class.EnglishClass" relationship="TO_ONE">
+      <point x="-143.49966544384142" y="-9.116747628468147E-5" />
+      <point x="176.0" y="495.428" />
+      <point x="176.0" y="287.0" />
+      <point x="216.639" y="287.0" />
+      <point x="86.84752428121408" y="281.9998342742766" />
+    </edge>
+    <edge source="model.Class.EnglishClass" target="model.User.Teacher" relationship="TO_ONE">
+      <point x="95.99952428121406" y="-1.6572572343420688E-4" />
+      <point x="1061.546" y="-433.636" />
+      <point x="1061.546" y="209.0" />
+      <point x="870.546" y="209.0" />
+      <point x="-14.999665443841423" y="-249.00009116747628" />
+    </edge>
+    <edge source="service.user.UserServiceIMPL" target="model.User.Student" relationship="TO_MANY">
+      <point x="0.0" y="-654.0" />
+      <point x="1347.0955231922192" y="-1015.3130031370417" />
+      <point x="-362.1358485048837" y="-1015.3130031370417" />
+      <point x="-362.1358485048837" y="125.74828442174353" />
+      <point x="-124.0" y="0.0" />
+    </edge>
+    <edge source="service.Class.EnglishClassServiceIMPL" target="config.ConfigReadAndWriteFile" relationship="CREATE">
+      <point x="27.343207158268" y="-346.00037360946123" />
+      <point x="357.046" y="171.0" />
+      <point x="532.498" y="171.0" />
+      <point x="-2.1836830001120688E-4" y="-38.00028272528317" />
+    </edge>
+    <edge source="model.Class.EnglishClass" target="model.Room.Room" relationship="TO_ONE">
+      <point x="-4.757187859354417E-4" y="281.9998342742766" />
+      <point x="129.791" y="-108.0" />
+      <point x="-208.136" y="-108.0" />
+      <point x="-1.5149511628465007E-4" y="216.00031058744926" />
+    </edge>
+    <edge source="model.Room.Room" target="model.Class.EnglishClass" relationship="TO_ONE">
+      <point x="134.3358485048837" y="216.00031058744926" />
+      <point x="-73.8" y="287.0" />
+      <point x="216.639" y="287.0" />
+      <point x="86.84752428121408" y="281.9998342742766" />
+    </edge>
+    <edge source="service.user.UserServiceIMPL" target="config.ConfigReadAndWriteFile" relationship="CREATE">
+      <point x="-170.99952319221916" y="-3.453156148225389E-5" />
+      <point x="1046.546" y="313.01" />
+      <point x="1046.546" y="171.0" />
+      <point x="532.498" y="171.0" />
+      <point x="-2.1836830001120688E-4" y="-38.00028272528317" />
+    </edge>
+    <edge source="model.Class.EnglishClass" target="model.Class.Shift" relationship="TO_ONE">
+      <point x="-88.5" y="-282.0" />
+      <point x="72.97436445855297" y="38.0" />
+    </edge>
+    <edge source="model.Course.Course" target="model.Course.CourseStatus" relationship="TO_ONE">
+      <point x="-62.15628567843362" y="-139.0" />
+      <point x="101.0" y="0.0" />
+    </edge>
+    <edge source="model.Room.Room" target="model.Room.RoomStatus" relationship="TO_ONE">
+      <point x="-6.438896777868138" y="-216.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="service.Room.IRoomService" target="service.IGenericService" relationship="INTERFACE_GENERALIZATION">
+      <point x="-143.50016986547837" y="-4.758432007747615E-4" />
+      <point x="-328.0" y="1473.408" />
+      <point x="-328.0" y="1055.043" />
+      <point x="-91.49977903944927" y="9.329159843218804E-5" />
+    </edge>
+    <edge source="model.Course.Course" target="model.Course.CourseType" relationship="TO_ONE">
+      <point x="52.84371432156638" y="-139.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="service.Class.EnglishClassServiceIMPL" target="service.Class.IEnglishClassService" relationship="REALIZATION">
+      <point x="177.0" y="200.33703460727907" />
+      <point x="-177.0" y="0.0" />
+    </edge>
+    <edge source="service.Room.RoomServiceIMPL" target="config.ConfigReadAndWriteFile" relationship="CREATE">
+      <point x="143.49995781273736" y="137.43989183093518" />
+      <point x="332.046" y="315.454" />
+      <point x="332.046" y="171.0" />
+      <point x="532.498" y="171.0" />
+      <point x="-2.1836830001120688E-4" y="-38.00028272528317" />
+    </edge>
+    <edge source="service.user.UserServiceIMPL" target="model.User.Teacher" relationship="TO_MANY">
+      <point x="-170.99952319221916" y="-417.0720345315615" />
+      <point x="1061.546" y="-104.062" />
+      <point x="1061.546" y="209.0" />
+      <point x="870.546" y="209.0" />
+      <point x="-14.999665443841423" y="-249.00009116747628" />
+    </edge>
+    <edge source="model.User.User" target="model.User.Role" relationship="TO_ONE">
+      <point x="91.5" y="213.74883881555354" />
+      <point x="-78.0" y="0.0" />
+    </edge>
+    <edge source="service.Course.ICourseService" target="service.IGenericService" relationship="INTERFACE_GENERALIZATION">
+      <point x="-137.50004641370757" y="-2.2417755121750815E-4" />
+      <point x="-328.0" y="526.988" />
+      <point x="-328.0" y="1055.043" />
+      <point x="-91.49977903944927" y="9.329159843218804E-5" />
+    </edge>
+    <edge source="service.user.UserServiceIMPL" target="service.user.IUserService" relationship="REALIZATION">
+      <point x="0.0" y="654.0" />
+      <point x="1347.0955231922192" y="1660.9084758432007" />
+      <point x="-565.5405771123816" y="1660.9084758432007" />
+      <point x="0.0" y="522.0" />
+    </edge>
+    <edge source="service.Room.RoomServiceIMPL" target="service.Room.IRoomService" relationship="REALIZATION">
+      <point x="-139.5246192996442" y="246.99999999999997" />
+      <point x="-717.0405771123816" y="1675.9084758432007" />
+      <point x="-39.70783013452163" y="1675.9084758432007" />
+      <point x="0.0" y="170.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.6812891777286139" showDependencies="true" x="556.9885919661739" y="281.6175898520074" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
